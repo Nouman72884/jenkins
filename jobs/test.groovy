@@ -7,12 +7,9 @@ pipelineJob('job-name') {
           stages {
             stage('Stage name 1') {
               steps {
-                // your logic here
-              }
-            }
-            stage('Stage name 2') {
-              steps {
-                // your logic here
+                script {
+                    sh 'ls -la'
+                }
               }
             }
           }
