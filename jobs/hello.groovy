@@ -1,5 +1,5 @@
 def jobname = 'jenkins_master_build'
-pipelineJob(jobname) {
+pipelineJob("wajahat") {
 
   logRotator {
       numToKeep(5)
