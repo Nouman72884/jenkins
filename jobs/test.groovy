@@ -14,7 +14,8 @@ pipelineJob('job-name') {
             }
           }
         }
-    ''')   
+    ''')
+    sanbox(true)   
     }
   }
 }
