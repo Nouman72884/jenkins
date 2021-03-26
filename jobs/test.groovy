@@ -19,3 +19,4 @@ pipelineJob('job-name') {
     }
   }
 }
+
